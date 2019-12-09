@@ -1,0 +1,10 @@
+structure (card_struct) {
+
+  description (struct that gets returned when asking for cards)
+
+  property (card_pics) {
+    type (core.BaseImage)
+    min (Optional) max (Many)
+  }
+
+}

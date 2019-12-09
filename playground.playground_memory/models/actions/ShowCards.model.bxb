@@ -1,0 +1,9 @@
+action (ShowCards) {
+  type(Search)
+  description (The action that shows the cards)
+
+  collect {
+
+  }
+  output (card_struct)
+}

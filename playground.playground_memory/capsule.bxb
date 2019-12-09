@@ -1,0 +1,34 @@
+capsule {
+  id (playground.playground_memory)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+
+  store-countries{
+    all
+  }
+
+  store-sections{
+    section (GamesAndFun)
+  }
+
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+    import (viv.image) {
+     as (image) version (2.12.10)
+   }
+  }
+  runtime-flags {
+    modern-default-view-behavior
+    no-filtering-with-validation
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+    use-input-views-for-selection-list-detail
+  }
+  default-action (StartQuiz)
+}

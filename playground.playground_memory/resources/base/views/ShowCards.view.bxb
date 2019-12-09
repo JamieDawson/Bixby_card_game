@@ -1,0 +1,17 @@
+// result-view{
+// 	match: card_struct (this)
+	
+// 	render{
+// 		layout{
+// 			section{
+// 				content {
+					
+// 					image{
+// 						url("#{value(this.card_pics.url)}")
+// 					}
+					
+// 				}
+// 			}
+// 		}
+// 	}
+// }
