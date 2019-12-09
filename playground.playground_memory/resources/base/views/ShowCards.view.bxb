@@ -1,17 +1,23 @@
-// result-view{
-// 	match: card_struct (this)
+result-view{
+	match: card_struct (this)
 	
-// 	render{
-// 		layout{
-// 			section{
-// 				content {
-					
-// 					image{
-// 						url("#{value(this.card_pics.url)}")
-// 					}
-					
-// 				}
-// 			}
-// 		}
-// 	}
-// }
+	render{
+		layout{
+			section{
+				content {
+					for-each (this) {
+						as (this) {
+							image{
+								url("#{value(this.card_pics.url)}")
+                aspect-ratio(1:1)
+                object-fit (Contain)
+                background-color (Transparent)
+                lightbox-enabled (false)
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

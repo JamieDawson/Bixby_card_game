@@ -1,3 +1,5 @@
+var console = require('console')
+
 module.exports.function = function showCards () {
 
   var cards = [
@@ -8,12 +10,14 @@ module.exports.function = function showCards () {
 
 
 
-
+for (var i = 0; i < cards.length; i++) {
 var all = {   
    card_pics: {
-     url: cards
+     url: cards[i]
    }
   }
+  console.log(cards[i])
+}
 
 
   return all
