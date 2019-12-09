@@ -7,17 +7,25 @@ module.exports.function = function showCards () {
     "images/9C.png"
   ]
 
-
-
-
-for (var i = 0; i < cards.length; i++) {
-var all = {   
-   card_pics: {
-     url: cards[i]
-   }
+  var all = {
+    card_pics: []
   }
-  console.log(cards[i])
-}
+  
+  for (var i = 0; i < cards.length; i++) {
+    all.card_pics.push({
+      url: cards[i]
+    })
+  }
+
+
+
+// for (var i = 0; i < cards.length; i++) {
+// var all = {   
+//    card_pics: {
+//      url: cards[i]
+//    }
+//   }
+// }
 
 
   return all
