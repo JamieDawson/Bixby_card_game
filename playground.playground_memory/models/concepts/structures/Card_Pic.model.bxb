@@ -1,0 +1,11 @@
+structure (Card_Pic) {
+  property (url) {
+    type (core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (card_text) {
+    type (core.Text)
+    min (Optional) max (One)
+  }
+}

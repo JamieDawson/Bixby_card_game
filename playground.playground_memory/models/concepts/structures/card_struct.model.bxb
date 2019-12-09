@@ -3,8 +3,14 @@ structure (card_struct) {
   description (struct that gets returned when asking for cards)
 
   property (card_pics) {
-    type (core.BaseImage)
+    type (Card_Pic)
     min (Optional) max (Many)
   }
+
+    property (card_text) {
+    type (text_prim)
+    min (Optional) max (One)
+  }
+
 
 }

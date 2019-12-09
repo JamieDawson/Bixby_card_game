@@ -5,6 +5,7 @@ result-view{
 		layout{
 			section{
 				content {
+
 					for-each (this.card_pics) {
 						as (x) {
               image-card {
@@ -16,14 +17,14 @@ result-view{
                 title-area {
                   slot1 {
                     text {
-                      value ("asdf")
+                      value ("#{value(x.card_text)}")
                     }
                   }
                 }
               }
 
 							// image{
-							// 	url("#{value(x.url)}")
+							// 	url("#{value(x.url)}"
               //   aspect-ratio(1:1)
               //   object-fit (Contain)
               //   background-color (Transparent)
