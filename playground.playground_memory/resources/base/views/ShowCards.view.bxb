@@ -8,23 +8,47 @@ result-view{
 					for-each (this.card_pics) {
 						as (x) {
 							if (exists(x.url)) {
-								image-card {
-									aspect-ratio(9:21)
-									image-url("#{value(x.url)}")
-									image-object-fit (Contain)
-									column-size (Three)
-									title-area {
-										slot1 {
-											if(exists(x.card_text)) {
-												text {
-													value ("#{value(x.card_text)}")
-												}
-											} else {
-												text ("")
-											}
-										}
+								// image-card {
+								// 	aspect-ratio(9:21)
+								// 	image-url("#{value(x.url)}")
+								// 	image-object-fit (Contain)
+								// 	column-size (Three)
+								// 	title-area {
+								// 		slot1 {
+								// 			if(exists(x.card_text)) {
+								// 				text {
+								// 					value ("#{value(x.card_text)}")
+								// 				}
+								// 			} else {
+								// 				text ("")
+								// 			}
+								// 		}
+								// 	}
+								// }
+								hbox{
+									content{
+										vbox{
+											grow(1)
+											content{single-line{text{value(" ")}}}}
+										vbox{
+											grow(1)
+											halign (Center)
+											content{
+												single-line{text{value("Card #{i+1}")}}}}
+										vbox{
+											grow(1)
+											content{single-line{text{value(" ")}}}}
 									}
 								}
+								image{
+									object-fit (Contain)
+									aspect-ratio (21:9)
+									background-color (Transparent)
+									lightbox-enabled (false)
+									url("#{value(x.url)}")
+								}
+								spacer
+								divider
 							}
 						}
 					}
