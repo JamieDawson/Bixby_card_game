@@ -9,7 +9,7 @@ template-macro-def (WELCOME_TO_QUIZ) {
     }
   }
   content {
-    template ("Welcome to Bixby Quiz. There are #{size(quizzes)} quizzes available")
+    template ("These quizes test your memory! There are #{size(quizzes)} quizzes available")
   }
 }
 

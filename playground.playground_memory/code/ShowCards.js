@@ -13,7 +13,48 @@ module.exports.function = function showCards () {
     "images/5D.png", //8
     "images/QS.png", //9
     "images/6H.png", //10
-
+    "images/2C.png", //11
+    "images/5C.png", //12
+    "images/9H.png", //13
+    "images/JC.png", //14
+    "images/QC.png", //15
+    "images/3H.png", //16
+    "images/3D.png", //17
+    "images/AC.png", //18
+    "images/3C.png", //19
+    "images/6C.png", //20
+    "images/AD.png", //21
+    "images/4C.png", //22
+    "images/10D.png", //23
+    "images/10H.png", //24
+    "images/2D.png", //25
+    "images/2H.png", //26
+    "images/8C.png", //27
+    "images/6S.png", //28
+    "images/JD.png", //29
+    "images/KC.png", //30
+    "images/2S.png", //31
+    "images/AS.png", //32
+    "images/9D.png", //33
+    "images/5S.png", //34
+    "images/7C.png", //35
+    "images/4D.png", //36
+    "images/8D.png", //37
+    "images/4S.png", //38
+    "images/QH.png", //39
+    "images/KH.png", //40
+    "images/3S.png", //41
+    "images/5H.png", //42
+    "images/9S.png", //43
+    "images/QD.png", //44
+    "images/8H.png", //45
+    "images/8S.png", //46
+    "images/7D.png", //47
+    "images/7S.png", //48
+    "images/JH.png", //49
+    "images/KS.png", //50
+    "images/10S.png", //51
+    "images/6D.png" //52
   ]
 
   var sentences = [
@@ -26,7 +67,49 @@ module.exports.function = function showCards () {
     "Card 7",
     "Card 8",
     "Card 9",
-    "Card 10" 
+    "Card 10", 
+    "Card 11",
+    "Card 12",
+    "Card 13",
+    "Card 14",
+    "Card 15",
+    "Card 16",
+    "Card 17",
+    "Card 18",
+    "Card 19",
+    "Card 20",
+    "Card 21",
+    "Card 22",
+    "Card 23",
+    "Card 24",
+    "Card 25",
+    "Card 26",
+    "Card 27",
+    "Card 28",
+    "Card 29",
+    "Card 30",
+    "Card 31",
+    "Card 32",
+    "Card 33",
+    "Card 34",
+    "Card 35",
+    "Card 36",
+    "Card 37",
+    "Card 38",
+    "Card 39",
+    "Card 40",
+    "Card 41",
+    "Card 42",
+    "Card 43",
+    "Card 44",
+    "Card 45",
+    "Card 46",
+    "Card 47",
+    "Card 48",
+    "Card 49",
+    "Card 50",
+    "Card 51",
+    "Card 52",
   ]
 
 
