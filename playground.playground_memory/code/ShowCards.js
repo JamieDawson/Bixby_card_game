@@ -112,13 +112,11 @@ module.exports.function = function showCards () {
     "Card 52",
   ]
 
-
   var all = {
     card_pics: [],
     card_text: []
   }
 
-  
   for (var i = 0; i < cards.length; i++) {
     all.card_pics.push({
       url: cards[i],

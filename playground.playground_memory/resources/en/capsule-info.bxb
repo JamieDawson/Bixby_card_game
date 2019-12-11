@@ -1,11 +1,12 @@
 capsule-info {
-  display-name (Example Quiz)
-  developer-name (Example Developer)
-  icon-asset (images/icons/bixby_launcher.png)
-  description ("An example capsule that demonstrates how to build a quiz")
-  website-url (https://bixbydevelopers.com/)
+  display-name (Card Precision)
+  developer-name (Jamie Dawson)
+  icon-asset (images/icons/cap_logo.png)
+  description ("Want to test your memory? Then give this Capsule a try! Just ask Card Precision to give you the list of cards. Then select one of the quizzes to see how well you can remember the order of the cards.")
+ 
   search-keywords {
     keyword (quiz)
+    keyword (GamesAndFun)
   }
-  dispatch-name (Example Quiz)
+  dispatch-name (Card Precision)
 }
