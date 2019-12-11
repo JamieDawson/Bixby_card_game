@@ -1538,34 +1538,7 @@ module.exports = [
       "question": "What is the fifty-second card?"
     },
   ]
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 ]

@@ -19,6 +19,8 @@ result-view{
 												text {
 													value ("#{value(x.card_text)}")
 												}
+											} else {
+												text ("")
 											}
 										}
 									}

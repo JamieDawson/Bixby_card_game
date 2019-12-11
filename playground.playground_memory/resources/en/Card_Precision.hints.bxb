@@ -1,5 +1,7 @@
 hints {
   uncategorized {
-    hint (With Example Quiz, start quiz)
+    hint (With Card Precision, start quiz)
+    hint (In Card Precision, Show me the list of cards)
+    hint (Ask Card Precision, begin a quiz)
   }
 }
