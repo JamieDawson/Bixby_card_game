@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: card_struct
+  template("Here are the cards!")
+}

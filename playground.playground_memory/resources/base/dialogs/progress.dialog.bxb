@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: card_struct
+  template("Looking for your cards")
+}
