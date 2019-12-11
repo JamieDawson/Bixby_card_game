@@ -23,8 +23,8 @@ template-macro-def (QUIZ_SELECTION_QUESTION) {
   }
   content {
     choose (Random) {
-      template ("Welcome to Bixby Quiz. Which quiz would you like to take?")
-      template ("Welcome to Bixby Quiz. Which of these #{size(quizzes)} quizzes would you like to take?")
+      template ("Select a quiz to test your memory!")
+      template ("What memory quiz do you want to try?")
     }
   }
 }
