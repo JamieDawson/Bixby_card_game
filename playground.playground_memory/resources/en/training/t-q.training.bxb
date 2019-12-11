@@ -1,0 +1,5 @@
+train (t-qbchf2779y3p7yahg4uckjxa6) {
+  utterance ([g:ShowCards] I want the card list)
+  plan (Y2Bi0CjISaxML8ovzUvRQzDjc1Nz84sq9ZITi1Lii0uKSpNLGNTwqgzOyC93BqouZmAEQgYoBpIA)
+  last-modified (1576038555842)
+}

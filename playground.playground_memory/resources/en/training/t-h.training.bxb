@@ -1,0 +1,5 @@
+train (t-hs5g3kndoajip2fcb8x8fi9y6) {
+  utterance ([g:ShowCards] card list)
+  plan (Y2Bi0CjISaxML8ovzUvRQzDjc1Nz84sq9ZITi1Lii0uKSpNLGNTwqgzOyC93BqouZmAEQgYoBpIA)
+  last-modified (1576038568893)
+}

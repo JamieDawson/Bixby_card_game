@@ -176,7 +176,7 @@ module.exports = [
 
 
 
-
+/*
 
 //20 CARDS
 {
@@ -369,7 +369,7 @@ module.exports = [
 
 
 
-
+*/
 
 
 
