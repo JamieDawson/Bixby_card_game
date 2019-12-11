@@ -6,7 +6,10 @@ capsule-info {
  
   search-keywords {
     keyword (quiz)
-    keyword (GamesAndFun)
+    keyword (memory)
+    keyword (game)
+    keyword (cards)
+
   }
   dispatch-name (Card Precision)
 }
